@@ -1,73 +1,110 @@
-# React + TypeScript + Vite
+# 🛵 FoodExpress
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A food delivery web app inspired by Uber Eats, built as a portfolio project to demonstrate modern frontend development with React and TypeScript.
 
-Currently, two official plugins are available:
+🔗 **[Live Demo](#)** <!-- Replace with your Vercel URL -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<!-- Add screenshots after deploy -->
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🏪 **10 restaurants** with full menus and real food images
+- 🛒 **Multiple carts** — one per restaurant, just like Uber Eats
+- 🗺️ **Real-time order tracking** with an animated delivery driver on a live map of San José, Costa Rica
+- 📍 **Real routing** via OSRM (Open Source Routing Machine) — the driver follows actual streets
+- 💳 **Checkout flow** with delivery form and simulated payment
+- 🌐 **Full i18n** — Spanish / English with flag selector
+- 🤖 **AI-powered chatbot** — recommends dishes based on your preferences
+- 💾 **Cart persistence** via localStorage
+- 📱 **Fully responsive** — mobile and desktop
+- ♻️ **Clean Code** — SOLID principles, custom hooks, separated components
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🧱 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React 18 + TypeScript |
+| Styling | Tailwind CSS |
+| Routing | React Router v6 |
+| State | Context API + Custom Hooks |
+| Maps | Leaflet + React Leaflet |
+| Routing Engine | OSRM (OpenStreetMap) |
+| i18n | react-i18next |
+| Build Tool | Vite |
+
+---
+
+## 🚀 Getting Started
+```bash
+# Clone the repo
+git clone https://github.com/jeanca07b/DeliveryApp.git
+cd DeliveryApp
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📁 Project Structure
 ```
+src/
+├── components/
+│   ├── ai/              # Chatbot components
+│   ├── cart/            # Cart components
+│   ├── checkout/        # Checkout form components
+│   └── order-tracking/  # Map and tracking components
+├── context/             # CartContext
+├── data/                # Static restaurant and menu data
+├── hooks/               # Custom hooks (useCart, useOrderTracking, useChat)
+├── i18n/                # Translations (ES/EN)
+├── pages/               # Route pages
+├── types/               # TypeScript interfaces
+└── utils/               # Helper functions
+```
+
+---
+
+## 🗺️ App Flow
+```
+Home → Search restaurant → Restaurant detail → Add to cart → Checkout → Order tracking (live map)
+```
+
+---
+
+## 🔮 Roadmap
+
+- [ ] Backend with Node.js + Express
+- [ ] PostgreSQL database (Supabase)
+- [ ] Firebase Authentication (Google login)
+- [ ] Stripe payment integration
+- [ ] AWS S3 for image storage
+- [ ] Real-time tracking with Socket.io
+- [ ] Order history
+- [ ] Admin dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Jean Carlos Arias Baltodano**
+React Developer · TypeScript · Node.js
+
+[LinkedIn](https://linkedin.com/in/jeancarlosariasb) · [GitHub](https://github.com/jeanca07b)
+
+---
+
+## 📄 License
+
+MIT
