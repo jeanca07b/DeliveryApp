@@ -2,7 +2,7 @@
 
 A food delivery web app inspired by Uber Eats, built as a portfolio project to demonstrate modern frontend development with React and TypeScript.
 
-🔗 **[Live Demo](#)** <!-- Replace with your Vercel URL -->
+🔗 **[Live Demo](https://foodexpress-sigma.vercel.app/)**
 
 ---
 ## 📸 Screenshots
