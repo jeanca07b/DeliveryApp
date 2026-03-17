@@ -8,21 +8,21 @@ A food delivery web app inspired by Uber Eats, built as a portfolio project to d
 ## 📸 Screenshots
 
 ### Home
-![Home](./screenshots/home.png)
+<img src="./screenshots/home.png" width="700" />
 
 ### Restaurants
-![Restaurants](./screenshots/restaurants.png)
+<img src="./screenshots/restaurants.png" width="700" />
 
 ### Cart
-![Cart](./screenshots/carts.png)
+<img src="./screenshots/carts.png" width="700" />
 
 ### Checkout
-![Checkout](./screenshots/checkout.png)
+<img src="./screenshots/checkout.png" width="700" />
 
 ### Order Tracking
-![Order Tracking](./screenshots/order-tracking.png)
+<img src="./screenshots/order-tracking.png" width="350" />
 
-![Order Tracking Mobile](./screenshots/order-trackingTwo.png)
+<img src="./screenshots/order-trackingTwo.png" width="350" />
 
 ---
 
