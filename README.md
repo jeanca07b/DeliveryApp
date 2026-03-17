@@ -5,10 +5,24 @@ A food delivery web app inspired by Uber Eats, built as a portfolio project to d
 🔗 **[Live Demo](#)** <!-- Replace with your Vercel URL -->
 
 ---
-
 ## 📸 Screenshots
 
-<!-- Add screenshots after deploy -->
+### Home
+![Home](./screenshots/home.png)
+
+### Restaurants
+![Restaurants](./screenshots/restaurants.png)
+
+### Cart
+![Cart](./screenshots/carts.png)
+
+### Checkout
+![Checkout](./screenshots/checkout.png)
+
+### Order Tracking
+![Order Tracking](./screenshots/order-tracking.png)
+
+![Order Tracking Mobile](./screenshots/order-trackingTwo.png)
 
 ---
 
