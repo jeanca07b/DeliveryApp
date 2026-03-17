@@ -1,59 +1,42 @@
+import { useTranslation } from "react-i18next"
+import { useNavigate } from "react-router-dom"
 import { useCart } from "../context/CartContext"
+import RestaurantCartCard from "../components/cart/RestaurantCartCard"
 
 export default function Cart() {
+  const { carts } = useCart()
+  const navigate = useNavigate()
+  const { t } = useTranslation()
 
-  const { cart, removeFromCart, clearCart } = useCart()
+  const cartList = Object.values(carts)
 
-  const total = cart.reduce(
-    (acc, item) => acc + item.price * item.quantity,
-    0
-  )
+  if (cartList.length === 0) {
+    return (
+      <section className="max-w-4xl mx-auto px-6 py-20 text-center">
+        <p className="text-5xl mb-4">🛒</p>
+        <h2 className="text-2xl font-bold mb-2">{t("cart.empty_title")}</h2>
+        <p className="text-gray-500 mb-6">{t("cart.empty_subtitle")}</p>
+        <button
+          onClick={() => navigate("/restaurants")}
+          className="bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 transition"
+        >
+          {t("cart.see_restaurants")}
+        </button>
+      </section>
+    )
+  }
 
   return (
     <section className="max-w-4xl mx-auto px-6 py-16">
-
-      <h1 className="text-3xl font-bold mb-8">
-        Tu carrito
-      </h1>
-
-      {cart.length === 0 ? (
-        <p>No hay productos en el carrito.</p>
-      ) : (
-        <>
-          {cart.map((item) => (
-            <div
-              key={item.id}
-              className="flex justify-between items-center mb-4 border-b pb-4"
-            >
-              <div>
-                <h3 className="font-semibold">{item.name}</h3>
-                <p>
-                  ${item.price} x {item.quantity}
-                </p>
-              </div>
-
-              <button
-                onClick={() => removeFromCart(item.id)}
-                className="text-red-500"
-              >
-                Eliminar
-              </button>
-            </div>
-          ))}
-
-          <h2 className="text-xl font-bold mt-6">
-            Total: ${total.toFixed(2)}
-          </h2>
-
-          <button
-            onClick={clearCart}
-            className="mt-4 bg-gray-200 px-4 py-2 rounded"
-          >
-            Vaciar carrito
-          </button>
-        </>
-      )}
-
+      <h1 className="text-3xl font-bold mb-8">{t("cart.title")}</h1>
+      <div className="space-y-8">
+        {cartList.map((restaurantCart) => (
+          <RestaurantCartCard
+            key={restaurantCart.restaurantId}
+            restaurantCart={restaurantCart}
+          />
+        ))}
+      </div>
     </section>
   )
 }

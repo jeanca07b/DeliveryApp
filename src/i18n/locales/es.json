@@ -1,0 +1,121 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "restaurants": "Restaurantes",
+    "cart": "Carrito",
+    "login": "Iniciar sesión"
+  },
+  "home": {
+    "hero_title": "¿Qué quieres comer hoy?",
+    "hero_subtitle": "Pide tu comida favorita y recíbela en minutos",
+    "search_placeholder": "Buscar restaurantes...",
+    "popular_title": "Restaurantes populares"
+  },
+  "restaurants": {
+    "title": "Restaurantes",
+    "search_placeholder": "Buscar restaurantes...",
+    "no_results": "No se encontraron restaurantes"
+  },
+  "restaurant_detail": {
+    "menu_title": "Menú",
+    "not_found": "Restaurante no encontrado",
+    "view_cart": "Ver carrito"
+  },
+  "menu_item": {
+    "add": "Añadir"
+  },
+  "cart": {
+    "title": "Tus carritos",
+    "empty_title": "Tu carrito está vacío",
+    "empty_subtitle": "Agrega productos desde un restaurante.",
+    "see_restaurants": "Ver restaurantes",
+    "other_cart": "Otro carrito",
+    "clear_cart": "🗑 Vaciar carrito",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout →"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "order_from": "Pedido de",
+    "delivery_data": "Datos de entrega",
+    "payment": "Pago",
+    "continue": "Continuar al pago →",
+    "full_name": "Nombre completo",
+    "email": "Email",
+    "phone": "Teléfono",
+    "city": "Ciudad",
+    "address": "Dirección de entrega",
+    "notes": "Notas para el repartidor (opcional)",
+    "notes_placeholder": "Ej: Tocar timbre, dejar en portería...",
+    "deliver_to": "Entregar a",
+    "card_demo": "Datos de tarjeta (demo)",
+    "card_number": "Número de tarjeta",
+    "expiry": "Expiración",
+    "cvv": "CVV",
+    "back": "← Volver",
+    "pay": "Pagar",
+    "placeholder_name": "Juan Pérez",
+    "placeholder_email": "juan@email.com",
+    "placeholder_phone": "+506 8888-8888",
+    "placeholder_city": "San José",
+    "placeholder_address": "Calle, número, referencia...",
+    "processing": "Procesando...",
+    "empty_title": "Tu carrito está vacío",
+    "empty_subtitle": "Agrega productos antes de continuar al checkout.",
+    "see_restaurants": "Ver restaurantes",
+    "order_summary": "Resumen del pedido",
+    "delivery_fee": "Envío",
+    "total": "Total",
+    "errors": {
+      "name_required": "El nombre es requerido",
+      "email_required": "El email es requerido",
+      "email_invalid": "Email inválido",
+      "phone_required": "El teléfono es requerido",
+      "address_required": "La dirección es requerida",
+      "city_required": "La ciudad es requerida",
+      "card_invalid": "Número de tarjeta inválido",
+      "expiry_invalid": "Fecha inválida",
+      "cvv_invalid": "CVV inválido"
+    }
+  },
+  "order_tracking": {
+    "title": "Seguimiento del pedido",
+    "delivered_title": "¡Pedido entregado!",
+    "eta": "Tiempo estimado de entrega",
+    "minutes": "min",
+    "order_number": "Número de pedido",
+    "payment_method": "Método de pago",
+    "payment_demo": "Tarjeta (demo)",
+    "status": "Estado",
+    "destination": "Destino",
+    "call": "📞 Llamar",
+    "experience": "¿Cómo estuvo tu experiencia?",
+    "order_again": "Pedir de nuevo",
+    "steps": {
+      "confirmed_label": "Pedido confirmado",
+      "confirmed_desc": "Tu pedido fue recibido por el restaurante",
+      "preparing_label": "Preparando tu pedido",
+      "preparing_desc": "El chef está preparando tus platos",
+      "on_the_way_label": "En camino",
+      "on_the_way_desc": "Tu repartidor está en camino",
+      "delivered_label": "¡Entregado!",
+      "delivered_desc": "¡Disfruta tu comida!"
+    }
+  },
+  "chatbot": {
+  "greeting": "¡Hola! 👋 Soy tu asistente de FoodExpress. ¿Qué se te antoja comer hoy? Puedo recomendarte platos por categoría, precio o tiempo de entrega.",
+  "placeholder": "Escribe tu mensaje...",
+  "title": "Asistente FoodExpress",
+  "subtitle": "¿En qué te puedo ayudar?",
+  "limit_reached": "Has alcanzado el límite de mensajes para esta sesión.",
+  "send": "Enviar"
+},
+  "not_found": {
+    "title": "Página no encontrada",
+    "subtitle": "La página que buscas no existe.",
+    "back_home": "Volver al inicio"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}

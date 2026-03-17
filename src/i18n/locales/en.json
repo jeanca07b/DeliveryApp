@@ -1,0 +1,121 @@
+{
+  "navbar": {
+    "home": "Home",
+    "restaurants": "Restaurants",
+    "cart": "Cart",
+    "login": "Sign in"
+  },
+  "home": {
+    "hero_title": "What do you want to eat today?",
+    "hero_subtitle": "Order your favorite food and receive it in minutes",
+    "search_placeholder": "Search restaurants...",
+    "popular_title": "Popular restaurants"
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "search_placeholder": "Search restaurants...",
+    "no_results": "No restaurants found"
+  },
+  "restaurant_detail": {
+    "menu_title": "Menu",
+    "not_found": "Restaurant not found",
+    "view_cart": "View cart"
+  },
+  "menu_item": {
+    "add": "Add"
+  },
+  "cart": {
+    "title": "Your carts",
+    "empty_title": "Your cart is empty",
+    "empty_subtitle": "Add products from a restaurant.",
+    "see_restaurants": "See restaurants",
+    "other_cart": "Another cart",
+    "clear_cart": "🗑 Clear cart",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout →"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "order_from": "Order from",
+    "delivery_data": "Delivery details",
+    "payment": "Payment",
+    "continue": "Continue to payment →",
+    "full_name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "address": "Delivery address",
+    "notes": "Notes for the driver (optional)",
+    "notes_placeholder": "Ex: Ring doorbell, leave at front desk...",
+    "deliver_to": "Deliver to",
+    "card_demo": "Card details (demo)",
+    "card_number": "Card number",
+    "expiry": "Expiry",
+    "cvv": "CVV",
+    "back": "← Back",
+    "pay": "Pay",
+    "placeholder_name": "John Doe",
+    "placeholder_email": "john@email.com",
+    "placeholder_phone": "+1 555-555-5555",
+    "placeholder_city": "New York",
+    "placeholder_address": "Street, number, reference...",
+    "processing": "Processing...",
+    "empty_title": "Your cart is empty",
+    "empty_subtitle": "Add products before continuing to checkout.",
+    "see_restaurants": "See restaurants",
+    "order_summary": "Order summary",
+    "delivery_fee": "Delivery fee",
+    "total": "Total",
+    "errors": {
+      "name_required": "Name is required",
+      "email_required": "Email is required",
+      "email_invalid": "Invalid email",
+      "phone_required": "Phone is required",
+      "address_required": "Address is required",
+      "city_required": "City is required",
+      "card_invalid": "Invalid card number",
+      "expiry_invalid": "Invalid date",
+      "cvv_invalid": "Invalid CVV"
+    }
+  },
+  "order_tracking": {
+    "title": "Order tracking",
+    "delivered_title": "Order delivered!",
+    "eta": "Estimated delivery time",
+    "minutes": "min",
+    "order_number": "Order number",
+    "payment_method": "Payment method",
+    "payment_demo": "Card (demo)",
+    "status": "Status",
+    "destination": "Destination",
+    "call": "📞 Call",
+    "experience": "How was your experience?",
+    "order_again": "Order again",
+    "steps": {
+      "confirmed_label": "Order confirmed",
+      "confirmed_desc": "Your order was received by the restaurant",
+      "preparing_label": "Preparing your order",
+      "preparing_desc": "The chef is preparing your dishes",
+      "on_the_way_label": "On the way",
+      "on_the_way_desc": "Your driver is on the way",
+      "delivered_label": "Delivered!",
+      "delivered_desc": "Enjoy your food!"
+    }
+  },
+  "chatbot": {
+  "greeting": "Hi! 👋 I'm your FoodExpress assistant. What are you craving today? I can recommend dishes by category, price or delivery time.",
+  "placeholder": "Type your message...",
+  "title": "FoodExpress Assistant",
+  "subtitle": "How can I help you?",
+  "limit_reached": "You've reached the message limit for this session.",
+  "send": "Send"
+},
+  "not_found": {
+    "title": "Page not found",
+    "subtitle": "The page you are looking for does not exist.",
+    "back_home": "Back to home"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
